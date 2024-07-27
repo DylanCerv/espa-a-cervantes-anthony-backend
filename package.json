@@ -1,0 +1,27 @@
+{
+  "name": "backed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node backend/src/app.js",
+    "dev": "nodemon backend/src/app.js",
+    "frontend": "ng serve --prefix frontend",
+    "frontend-build": "ng build --prod --prefix frontend",
+    "backend": "node backend/app.js",
+    "backend-dev": "nodemon backend/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
